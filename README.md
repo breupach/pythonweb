@@ -6,10 +6,10 @@ Video Curso de MoureDev explicando python web con Reflex para desarrollar un sit
 
 ## Fuente
 
- - [[MoureDev] - Curso de PYTHON para WEB desde cero](https://www.youtube.com/watch?v=n2YrGsXJC6Y)
- - [[MoureDev] - Github del proyecto](https://github.com/mouredev/python-web)
+ - [[MoureDev] Curso de PYTHON para WEB desde cero](https://www.youtube.com/watch?v=n2YrGsXJC6Y)
+ - [[MoureDev] Github del proyecto](https://github.com/mouredev/python-web)
 
 ## Proyecto desplegado
 
- - [[breupach] - Brian Reupach - Portfolio](https://link-bio-gray-ocean.reflex.run/)
+ - [[breupach] Brian Reupach - Portfolio](https://link-bio-gray-ocean.reflex.run/)
 
