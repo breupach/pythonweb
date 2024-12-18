@@ -39,7 +39,7 @@ BASE_STYLE = {
         "height": "100%",
         "padding": Size.SMALL.value,
         "border_radius": Size.DEFAULT.value,
-        "background_color": Color.CONTENT.value,
+        "background_color": Color.PRIMARY.value,
         "color": TextColor.HEADER.value,
         "text_align": "start",
         "_hover": {

@@ -10,13 +10,14 @@ def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                src="favicon.ico",
+                src="avatar.png",
                 fallback="BR",
-                size="5",
+                size="7",
                 radius="full",
                 variant="solid",
-                border="4px solid",
+                border="2px solid",
                 border_color=Color.PRIMARY.value,
+                _hover={"transform": "scale(1.5)"}
             ),
             rx.vstack(
                 rx.heading(
@@ -30,20 +31,16 @@ def header() -> rx.Component:
                 ),
                 rx.hstack(
                     link_icon(
-                        "icons/twitch.svg",
-                        constants.GOOGLE_URL
+                        "icons/github.svg",
+                        constants.GITHUB_URL
                     ),
                     link_icon(
-                        "icons/twitch.svg",
-                        constants.GOOGLE_URL
+                        "icons/instagram.svg",
+                        constants.INSTAGRAM_URL
                     ),
                     link_icon(
-                        "icons/twitch.svg",
-                        constants.GOOGLE_URL
-                    ),
-                    link_icon(
-                        "icons/twitch.svg",
-                        constants.GOOGLE_URL
+                        "icons/linkedin.svg",
+                        constants.LINKEDIN_URL
                     ),
                     margin_top=Size.X_SMALL.value,
                     spacing="4"
@@ -51,16 +48,8 @@ def header() -> rx.Component:
                 spacing="0"
             ),
         ),
-        rx.flex(
-            info_text("+5", "años de experiencia"),
-            rx.spacer(),
-            info_text("+5", "años de experiencia"),
-            rx.spacer(),
-            info_text("+5", "años de experiencia"),
-            width="100%"
-        ),
         rx.text(
-            "Poner algo relacionado a experiencia de trabajo y que va a ser un portafolio para subir las aplicaciones que se realicen.",
+            constants.PROFILE_DESCRIPTION,
             color=TextColor.BODY.value,
             font_size=Size.MEDIUM.value,
         ),

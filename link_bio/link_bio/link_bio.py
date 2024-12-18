@@ -5,6 +5,7 @@ from link_bio.views.header.header import header
 from link_bio.views.links.links import links
 from link_bio.styles.styles import Size
 import link_bio.styles.styles as styles
+import link_bio.constants as constants
 
 
 class State(rx.State):
@@ -34,8 +35,8 @@ app = rx.App(
 )
 app.add_page(
     index,
-    title="Titulo de prueba",
-    description="descripcion de prueba",
+    title=constants.PAGE_TITLE,
+    description=constants.PAGE_DESCRIPTION,
     image="favicon.ico"
 )
 app._compile()
