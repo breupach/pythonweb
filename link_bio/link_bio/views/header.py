@@ -10,7 +10,7 @@ def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                src="avatar.png",
+                src="/avatar.png",
                 fallback="BR",
                 size="7",
                 radius="full",
@@ -31,15 +31,15 @@ def header() -> rx.Component:
                 ),
                 rx.hstack(
                     link_icon(
-                        "icons/github.svg",
+                        "/icons/github.svg",
                         constants.GITHUB_URL
                     ),
                     link_icon(
-                        "icons/instagram.svg",
+                        "/icons/instagram.svg",
                         constants.INSTAGRAM_URL
                     ),
                     link_icon(
-                        "icons/linkedin.svg",
+                        "/icons/linkedin.svg",
                         constants.LINKEDIN_URL
                     ),
                     margin_top=Size.X_SMALL.value,
