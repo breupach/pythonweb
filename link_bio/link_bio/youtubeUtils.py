@@ -5,7 +5,8 @@ def getTitleAndDescription(url):
     try:
         # Configuración de yt-dlp
         ydl_opts = {
-            'quiet': True,
+            'quiet': True,  # Desactiva mensajes de información y advertencias
+            'no_warnings': True,  # Omite todas las advertencias
             'skip_download': True,  # No descargar el video
         }
         with YoutubeDL(ydl_opts) as ydl:
